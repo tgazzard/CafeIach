@@ -66,7 +66,7 @@
 
 #hero-text {
   font-size: 60%;
-  font-family: "Open Sans";
+  font-family: "Open Sans", "Arial";
   letter-spacing: 4px;
 
   width: 300px;
@@ -93,5 +93,33 @@
 @media screen and (max-width: 800px) {
   #quote{
     font-size: 20px;
+    font-family: "Open sans", "Arial";
+  }
+}
+
+#about {
+  padding-top:1%;
+  background-color: white;
+}
+
+#about h2{
+ font-family: "dancing script", Arial;
+ color: #97197B;
+ style: bold;
+ font-size: 45px;
+ padding-left: 2%;
+}
+
+#about p{
+  font-family: "Open Sans", Arial;
+  color: black;
+  style: bold;
+  font-size: 26px;
+ }
+
+ @media screen and (max-width: 800px) {
+  #about p{
+    font-size: 20px;
+    font-family: "Open sans", "Arial";
   }
 }
