@@ -55,10 +55,30 @@
     #hero-image {
       height:250px;
     }
-  }
-
-  @media screen and (max-width: 800px) {
-    #hero-outer {
+     #hero-outer {
       height:250px;
     }
   }
+
+  #hero-text, h2{
+    color: #ffffff;
+  }
+
+#hero-text {
+  font-size: 60%;
+  font-family: "Open Sans";
+  letter-spacing: 4px;
+
+  width: 300px;
+  height: 200px;
+
+  padding-top: 10px;
+  padding-left: 10px;
+
+  background-color: rgba(151, 25, 123, .5);
+
+  bottom: 30px;
+  right: 150px;
+
+  position: sticky;
+}
