@@ -25,3 +25,28 @@
         clear: left;
     }
   }
+
+  #hero-image{
+    height:550px;
+    width:100%;
+    background: url("https://i.imgur.com/Wr7l4xb.jpg") no-repeat center center;
+    animation-name: hero-zoom;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+  }
+  
+  #hero-outer{
+    height:550px;
+    width:100%;
+    overflow: hidden;
+    position: relative;
+  }
+
+  @keyframes hero-zoom {
+    from{
+      transform: scale(1.1);
+    }
+    to{
+      transform: scale(1.0);
+    }
+  }
