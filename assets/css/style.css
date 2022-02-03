@@ -26,6 +26,7 @@
     }
   }
 
+
   #hero-image{
     height:550px;
     width:100%;
@@ -99,27 +100,57 @@
 
 #about {
   padding-top:1%;
-  background-color: white;
+  background-color: rgba(25, 151, 52, .2);
 }
 
 #about h2{
  font-family: "dancing script", Arial;
- color: #97197B;
+ color: #0E561D;
  style: bold;
- font-size: 45px;
- padding-left: 2%;
+ font-size: 38px;
+ padding-left: 4%;
+ padding-right: 4%;
+ text-align: center;
 }
 
 #about p{
   font-family: "Open Sans", Arial;
-  color: black;
   style: bold;
-  font-size: 26px;
+  font-size: 18px;
+  padding-left: 3%;
+ padding-right: 6%;
+ text-align: center;
  }
 
  @media screen and (max-width: 800px) {
-  #about p{
+  #about h2{
     font-size: 20px;
+  }
+  
+  #about p{
+    font-size: 15px;
     font-family: "Open sans", "Arial";
   }
+}
+
+
+#book-form{
+  background-color: rgba(151, 25, 123, .2);
+  padding-top:1%;
+  text-align: center;
+}
+
+#book-form h2{
+  font-family: "dancing script", Arial;
+  color: rgba(151, 25, 123);
+  style: bold;
+  font-size: 38px;
+  padding-left: 2%;
+  padding-right: 2%;
+  text-align: center;
+ }
+
+#book-form .form{
+  rgba(151, 25, 123);
+  width: 100%;
 }
