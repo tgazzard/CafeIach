@@ -1,3 +1,4 @@
+/*Navbar**/
 #nav li {
     float: left;
     margin-right: 30px;
@@ -26,7 +27,28 @@
     }
   }
 
+/*Footer**/
+#footer{
+  background-color:#199734;
+}
 
+#footer ul a {
+  color: white;
+  font-size:50px;
+  text-align: center;
+  padding-left: 6%;
+  padding-right:6%;
+}
+
+@media screen and (max-width: 800px) {
+  #footer ul a {
+    font-size:30px;
+    padding-left: 2%;
+    padding-right:4%;
+  }
+}
+
+/*Hero Image**/
   #hero-image{
     height:550px;
     width:100%;
@@ -162,3 +184,4 @@
   margin-left: auto;
   display:block;
 }
+
