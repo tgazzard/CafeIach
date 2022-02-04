@@ -1,32 +1,3 @@
-/*Original Navbar
-#nav li {
-    float: left;
-    margin-right: 30px;
-    list-style-type: none;
-  }
-
-  #nav li a {
-      color:white;
-      font-size:30px;
-      word-spacing: 5px;
-      margin-right: 10px;
-  }
-
-  @media screen and (max-width: 700px) {
-    #nav li a {
-    font-size:20px;
-    margin-right:5px;
-    padding-left:12px;
-    }
-  }
-
-  @media screen and (max-width: 800px) {
-    #nav li {
-        float: left;
-        clear: left;
-    }
-  }
-**/
 
 /* [ON BIG SCREEN] */
 /* (A) WRAPPER */
@@ -54,13 +25,13 @@
 /* (C) HIDE HAMBURGER */
 #hamnav label, #hamburger { display: none; }
 
-/* [ON MEDIUM SCREENS] */
+/* [D ON MEDIUM SCREENS] */
 @media screen and (max-width: 835px){
   #hamitems a {font-size:23px;}
 }
 
 
-/* [ON SMALL SCREENS] */
+/* [E ON SMALL SCREENS] */
 @media screen and (max-width: 740px){
   /* (A) BREAK INTO VERTICAL MENU */
   #hamitems a {
@@ -71,10 +42,10 @@
     font-size: 1.8em;
   }
  
-  /* (B) SHOW HAMBURGER ICON */
+  /* (F) SHOW HAMBURGER ICON */
   #hamnav label { 
     display: inline;
-    position: fixed; 
+    position: absolute; 
     top: 0; 
     right: 0;
     color: white;
@@ -84,7 +55,7 @@
     padding: 1px;
   }
 
-  /* (C) TOGGLE SHOW/HIDE MENU */
+  /* (G) TOGGLE SHOW/HIDE MENU */
   #hamitems { display: none; }
   #hamnav input:checked ~ #hamitems { display: block; }
 }
@@ -145,7 +116,7 @@
     }
   }
 
-  #hero-text, h2{
+  #hero-text h2{
     color: #ffffff;
   }
 
