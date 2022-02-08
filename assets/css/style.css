@@ -63,10 +63,11 @@
   #hero-image {
     height:550px;
     width:100%;
-    background: url("/worspace/cafeiach/assets/img/eat4.jpg") no-repeat center center;
+    background: url('../img/eat4.jpg' ) no-repeat center center;
     animation-name: hero-zoom;
     animation-duration: 3s;
     animation-fill-mode: forwards;
+    
   }
   
   #hero-outer{
@@ -74,6 +75,7 @@
     width:100%;
     overflow: hidden;
     position: relative;
+    background-color:#199734;
   }
 
   @keyframes hero-zoom {
@@ -117,6 +119,7 @@
   position: sticky;
 }
 
+/*Quotation line on home page**/
 #quote{
   width: 100%;
   background-color: #199734;
@@ -177,7 +180,6 @@
 #book-form h2{
   font-family: "dancing script", Arial;
   color: rgba(151, 25, 123);
-  style: bold;
   font-size: 38px;
   padding-left: 2%;
   padding-right: 2%;
@@ -185,7 +187,7 @@
  }
 
 #f{
-  rgba(151, 25, 123);
+  color: rgba (151, 25, 123);
   padding-left: 20px;
 }
 
@@ -201,7 +203,6 @@
 #location{
   padding-left:2%;
   background-color:#64C278;
-  index:flex;
 }
 
 #location p {
@@ -252,4 +253,63 @@
     padding-left: 2%;
     padding-right:4%;
   }
+}
+
+
+/*Table Image**/
+#table-image {
+  height:550px;
+  width:100%;
+  background: url('../img/res-2.jpg' ) no-repeat center center;
+  animation-name: hero-zoom;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+}
+
+#table-outer{
+  height:550px;
+  max-width:100%;
+  position: relative;
+  overflow: hidden;
+}
+
+@keyframes hero-zoom {
+  from{
+    transform: scale(1.1);
+  }
+  to{
+    transform: scale(1.0);
+  }
+}
+
+@media screen and (max-width: 800px) {
+  #hero-image {
+    height:250px;
+  }
+   #hero-outer {
+    height:250px;
+  }
+}
+
+#hero-text h2{
+  color: #ffffff;
+}
+
+#hero-text {
+font-size: 60%;
+font-family: "Open Sans", "Arial";
+letter-spacing: 4px;
+
+width: 300px;
+height: 200px;
+
+padding-top: 10px;
+padding-left: 10px;
+
+background-color: rgba(151, 25, 123, .5);
+
+bottom: 30px;
+right: 150px;
+
+position: sticky;
 }
