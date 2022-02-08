@@ -256,60 +256,22 @@
 }
 
 
-/*Table Image**/
+/*Reserved Image**/
 #table-image {
-  height:550px;
+  height:350px;
   width:100%;
-  background: url('../img/res-2.jpg' ) no-repeat center center;
-  animation-name: hero-zoom;
+  background: url('../img/res-3.jpg' ) no-repeat center center;
+  animation-name: table-zoom;
   animation-duration: 3s;
   animation-fill-mode: forwards;
 }
 
-#table-outer{
-  height:550px;
-  max-width:100%;
-  position: relative;
-  overflow: hidden;
-}
-
-@keyframes hero-zoom {
-  from{
-    transform: scale(1.1);
-  }
-  to{
-    transform: scale(1.0);
-  }
-}
-
-@media screen and (max-width: 800px) {
-  #hero-image {
-    height:250px;
-  }
-   #hero-outer {
-    height:250px;
-  }
-}
-
-#hero-text h2{
-  color: #ffffff;
-}
-
-#hero-text {
-font-size: 60%;
-font-family: "Open Sans", "Arial";
-letter-spacing: 4px;
-
-width: 300px;
-height: 200px;
-
-padding-top: 10px;
-padding-left: 10px;
-
-background-color: rgba(151, 25, 123, .5);
-
-bottom: 30px;
-right: 150px;
-
-position: sticky;
+/*Flower Image**/
+#tabflow-image {
+  height:350px;
+  width:100%;
+  background: url('../img/flow1.jpg' ) no-repeat center center;
+  animation-name: table-zoom;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
 }
