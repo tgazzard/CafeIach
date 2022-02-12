@@ -68,6 +68,7 @@
                 <label for="inputfirstname1">First Name:</label>
                 <input type="text" class="form-control" id="inputfirstname1">
               </div>
+
               <div class="form-group col-md-4">
                 <label for="inputsurnname1">Surname:</label>
                 <input type="text" class="form-control" id="inputsurnname1">
@@ -76,19 +77,40 @@
                 <label for="inputem1">Email address:</label>
                 <input type="email" class="form-control" id="inputem1">
               </div>
+
               <div class="form-group col-md-4">
                 <label for="datepick1">Date:</label>
                 <input type="date" class="form-control" id="datepick1">
               </div>
+
               <div class="form-group col-md-4">
                 <label for="time1">Time:</label>
                 <input type="time" class="form-control" id="time1">
               </div>
+
               <div class="form-group col-md-4">
                 <label for="numpick1">Number of people:</label>
                 <input type="number" class="form-control" id="numpick1">
               </div>
+
+              <div class="form-group col-12">  <input type="submit" value="Submit"></div>
+
+              <script>
+                const scriptURL = 'https://script.google.com/macros/s/AKfycbwTGqZqLTAsOpSweMn0xgHP0sOJPsFg5ZShC1HqzVoDoNi5h5Y/exec'
+                const form = document.forms['submit-to-google-sheet']
+                form.addEventListener('submit', e => {
+                e.preventDefault()
+                fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                  .then(response => console.log('Success!', response))
+                  .catch(error => console.error('Error!', error.message))
+                 })
+                </script>
+
+              <div class="col-12"><p>After you press "Submit" we will email you within two working days gitto confirm your booking</p>
+            <p>We cannot guarantee that a table will be available, but we will do our best to fit you in.</p></div>
+
             </div>
+
           </form>
           </div>
     </div>
