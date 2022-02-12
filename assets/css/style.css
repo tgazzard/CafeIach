@@ -134,10 +134,9 @@
   }
 }
 
-/*ABOUT
+/*About**/
 #about {
   padding-top:1%;
-  background-color: rgba(25, 151, 52, .2);
 }
 
 #about h2{
@@ -153,7 +152,7 @@
 #about p{
   font-family: "Open Sans", Arial;
   style: bold;
-  font-size: 18px;
+  font-size: 20px;
   padding-left: 3%;
  padding-right: 6%;
  text-align: center;
@@ -161,15 +160,14 @@
 
  @media screen and (max-width: 800px) {
   #about h2{
-    font-size: 20px;
+    font-size: 30px;
   }
   
   #about p{
-    font-size: 15px;
+    font-size: 18px;
     font-family: "Open sans", "Arial";
   }
 }
-**/
 
 #booksection{
   background-color: rgba(151, 25, 123, .2);
