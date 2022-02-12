@@ -49,7 +49,6 @@
     right: 0;
     color: white;
     background: #0A4016;
-    font-style: normal;
     font-size: 2.5em;
     padding: 1px;
   }
@@ -136,7 +135,7 @@
 
 /*About**/
 #about {
-  padding-top:1%;
+  padding-top:2%;
 }
 
 #about h2{
@@ -146,21 +145,22 @@
  font-size: 38px;
  padding-left: 4%;
  padding-right: 4%;
- text-align: center;
+ text-align: left;
 }
 
-#about p{
+#about p {
   font-family: "Open Sans", Arial;
   style: bold;
   font-size: 20px;
   padding-left: 3%;
  padding-right: 6%;
- text-align: center;
+ text-align: left;
  }
 
  @media screen and (max-width: 800px) {
   #about h2{
     font-size: 30px;
+    text-align: left;
   }
   
   #about p{
@@ -213,7 +213,6 @@
   size-adjust: 8px;
 }
 }
-
 
 /*Footer**/
 #footer{
@@ -281,3 +280,68 @@
     min-width:100%;
     background: url('../img/coffban3.jpg' ) no-repeat center center;
   }
+
+  /*Menu Hero**/
+  #menu-hero{
+    display: inline;
+    height:260px;
+    width:100%;
+    background: url("https://i.imgur.com/UQWtTLc.png") no-repeat center center;
+    padding-top:10px;
+  }
+  
+/*Menus**/
+
+  #menus {
+    background-color:#BDE1C5;
+    padding-top:15px;
+    align-items: center;
+    text-align: center;
+    font-family: "Open Sans", Arial;
+    padding-bottom: 15px;
+    font-style: bold;
+  }
+  
+ #menus h2 {
+  font-family: "dancing script", Arial;
+  color: #199734;
+  font-size: 40px;px;
+  text-decoration: underline;
+ }
+
+ #menus h3 {
+  font-family:"Open Sans", Arial;
+  color: white;
+  font-weight: bold;
+  font-size: 32px;
+  padding-top:16px;
+  background-color:rgba(151, 25, 123, .5);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+ }
+
+ #menus h3:hover { text-decoration:underline; }
+
+#tea{
+  background: url('../img/tea.jpg' ) no-repeat center center;
+  height:230px;
+}
+
+#smooth{
+  background: url('../img/smooth.jpg' ) no-repeat center center;
+  height:230px;
+}
+
+#lunch{
+  background: url('../img/snack.jpg' ) no-repeat center center;
+  height:230px;
+}
+
+/*Home Page - Review section**/
+#revs {
+  background-color:#BDE1C5;
+}
+
+
