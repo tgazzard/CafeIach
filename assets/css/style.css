@@ -378,3 +378,80 @@
     font-size:22px;
   }
 }
+
+/*Live Music Page**/
+
+#music-banner{
+ min-width:100%;
+  background: url('../img/musicscore.jpg' ) no-repeat center center;
+  height:130px;
+}
+
+#live-music{
+  background-color: #DEF0E1;
+  padding-left:2%;
+}
+
+#live-music h2 {
+  font-family: "dancing script", Arial;
+  color: #199734;
+  font-size: 40px;
+  text-decoration: underline;
+}
+
+#live-music P {
+  font-family: "Open Sans", Arial;
+  color: #126E25;
+  font-weight: bold;
+}
+
+#guitar-image {
+  background: url('../img/keys.jpg' ) no-repeat center center;
+  height:80px;
+  width:120px;
+}
+
+#mustab {
+  font-size: 28px;
+  font-family: "Open Sans", "Arial";
+  max-width: 100%; 
+  border-collapse: collapse; 
+}
+
+@media screen and (max-width: 700px) {
+  #mustab {
+    font-size: 18px;
+  }
+}
+
+#c1 {
+  background-color:#4BB662
+}
+
+#c2 {
+  background-color:#99CF7F
+}
+
+#guitar-image {
+  background: url('../img/Guitar.jpg' ) no-repeat center center;
+  height:80px;
+  width:120px;
+}
+
+#keyboard-image {
+  background: url('../img/keys.jpg' ) no-repeat center center;
+  height:80px;
+  width:120px;
+}
+
+#singer {
+  background: url('../img/LL.jpg' ) no-repeat center center;
+  height:140px;
+  width:90px;
+}
+
+#dbass {
+  background: url('../img/dbass.jpg' ) no-repeat center center;
+  height:80px;
+  width:120px;
+}
