@@ -148,4 +148,4 @@ Due to time constraints I wasn't able to complete the site as to how I originall
 
 <br>
 Original Wireframe
-!["Cafe Iach logo"]((../assets/Original wireframe – Café Iach.pdf)
+!["Wireframme Doc"]((../assets/Original wireframe – Café Iach.pdf)
