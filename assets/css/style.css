@@ -218,6 +218,8 @@
 /*Footer**/
 #footer{
   background-color:#199734;
+  padding-top:0.8%;
+  padding-bottom:1%;
 }
 
 #footer h2{
@@ -372,8 +374,41 @@
   padding-top:0.8%;
 }
 
+#rev2{
+  padding-left:1.5%;
+  padding-bottom:2.5%;
+  padding-top:0.8%;
+}
+
+#rev3{
+  padding-left:1.5%;
+  padding-bottom:2.5%;
+  padding-top:0.8%;
+}
+
+#rev4{
+  padding-left:1.5%;
+  padding-bottom:2.5%;
+  padding-top:0.8%;
+}
+
 @media screen and (max-width: 800px) {
-  #rev {
+  #rev1 {
+    padding-bottom:4%;
+    font-size:22px;
+  }
+
+  #rev2 {
+    padding-bottom:4%;
+    font-size:22px;
+  }
+
+  #rev3 {
+    padding-bottom:4%;
+    font-size:22px;
+  }
+
+  #rev4 {
     padding-bottom:4%;
     font-size:22px;
   }
