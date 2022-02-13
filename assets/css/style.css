@@ -142,7 +142,7 @@
 #about h2{
  font-family: "dancing script", Arial;
  color: #0E561D;
- style: bold;
+ font-weight: bold;
  font-size: 38px;
  padding-left: 4%;
  padding-right: 4%;
@@ -151,7 +151,7 @@
 
 #about p {
   font-family: "Open Sans", Arial;
-  style: bold;
+  font-weight: bold;
   font-size: 20px;
   padding-left: 3%;
  padding-right: 6%;
@@ -176,12 +176,12 @@
   padding-top:5%;
 }
 
-#f{
-  color: rgba (151, 25, 123);
-  padding-left: 20px;
+#f {
+  color: rgb (151, 25, 123);
+  padding-left: 1%;
 }
 
-#table-image{
+#table-image {
   background: url("https://i.imgur.com/IVV0dsS.jpg") no-repeat center center;
   margin-right:0;
   margin-left: auto;
@@ -210,9 +210,7 @@
     text-align: center;
     font-size: 21px;
   }
-#location .i {
-  size-adjust: 8px;
-}
+
 }
 
 /*Footer**/
@@ -279,7 +277,6 @@
 
 #book-text h2 {
   font-family: "dancing script", Arial;
-  color: 151, 25, 123;
   font-size:35px;
   color: rgba(151, 25, 123, .9);
   padding-top:5px;
@@ -310,13 +307,13 @@
     text-align: center;
     font-family: "Open Sans", Arial;
     padding-bottom: 15px;
-    font-style: bold;
+    font-weight: bold;
   }
   
  #menus h2 {
   font-family: "dancing script", Arial;
   color: #199734;
-  font-size: 40px;px;
+  font-size: 40px;
   text-decoration: underline;
  }
 
