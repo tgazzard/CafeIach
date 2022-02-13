@@ -146,6 +146,6 @@ Due to time constraints I wasn't able to complete the site as to how I originall
 
 <h2>Other documents</h2>
 
+<br>
 Original Wireframe
-(../workspace/cafeiach/assets/Original wireframe – Café Iach.pdf)
-
+!["Cafe Iach logo"]((../assets/Original wireframe – Café Iach.pdf)
